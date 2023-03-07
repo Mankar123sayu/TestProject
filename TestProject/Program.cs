@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+namespace TestProject
+{
+    class program
+    {
+        static void Main(string[] args)//main entry of an application
+        {
+            Addition addition = new Addition();
+            addition.AddTwoNumbers();
+
+        }           
+    }
+}
